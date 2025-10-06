@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/aws/amazon-q-developer-cli/refs/heads/main/schemas/agent-v1.json",
+  "name": "context-logger",
+  "description": "A project context manager that stores and organizes human-friendly project information, decisions, and notes",
+  "prompt": "You are a project context manager. Follow the detailed instructions in your resources.",
+  "mcpServers": {},
+  "tools": [
+    "fs_read",
+    "fs_write",
+    "execute_bash"
+  ],
+  "toolAliases": {},
+  "allowedTools": [
+    "fs_read",
+    "fs_write",
+    "execute_bash"
+  ],
+  "resources": [
+    "file://prompts/context/prompt.md",
+    "file://context-logger/commands.md",
+    "file://context-logger/conventions.md"
+  ],
+  "hooks": {},
+  "toolsSettings": {},
+  "useLegacyMcpJson": true
+}
