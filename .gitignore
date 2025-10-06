@@ -1,0 +1,12 @@
+# Exclude personal configuration files
+.config
+
+# Exclude the .orbit directories. 
+# NOTE: If you're using this with a team you may want to include these.
+# When I work with a customer these get checked into a git repository
+# so other team members can review.
+.orbit/context
+.orbit/requests
+
+# Personal agent configs with sensitive paths
+obsidian.json
