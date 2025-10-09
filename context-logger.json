@@ -18,7 +18,8 @@
   "resources": [
     "file://prompts/context/prompt.md",
     "file://context-logger/commands.md",
-    "file://context-logger/conventions.md"
+    "file://context-logger/conventions.md",
+    "file://context-logger/agent-behavior.md"
   ],
   "hooks": {},
   "toolsSettings": {},
