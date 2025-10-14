@@ -8,5 +8,8 @@
 .orbit/context
 .orbit/requests
 
+# Exclude backup files
+backup/
+
 # Personal agent configs with sensitive paths
 obsidian.json
